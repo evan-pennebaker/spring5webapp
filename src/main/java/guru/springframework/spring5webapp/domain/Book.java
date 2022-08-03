@@ -28,10 +28,10 @@ public class Book {
     public Book() {
 
     }
-    public Book(String title, String isbn, Set<Author> authors ) {
+    public Book(String title, String isbn ) {
         this.title = title;
         this.isbn = isbn;
-        this.authors = authors;
+        //this.authors = authors;
     }
 
     public String getTitle() {

@@ -1,11 +1,10 @@
 package guru.springframework.spring5webapp.bootstrap;
-
 import guru.springframework.spring5webapp.domain.Author;
 import guru.springframework.spring5webapp.domain.Book;
+
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-import guru.springframework.spring5webapp.repositories.AuthorRepository;
-import guru.springframework.spring5webapp.repositories.BookRepository;
+
 
 @Component
 public class BootStrapData implements CommandLineRunner{
@@ -24,6 +23,4 @@ public class BootStrapData implements CommandLineRunner{
         
     }
 
-
-    
 }
