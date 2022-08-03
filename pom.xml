@@ -52,13 +52,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	
-   <dependency>
-     <groupId>org.ops4j.pax.exam.samples</groupId>
-     <artifactId>pax-exam-sample1-repo</artifactId>
-     <version>4.13.5</version>
-   </dependency>
- </dependencies>
+	</dependencies>
 
 	<build>
 		<plugins>
